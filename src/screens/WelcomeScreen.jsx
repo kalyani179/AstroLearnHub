@@ -8,7 +8,7 @@ export default function WelcomeScreen() {
     const navigation = useNavigation();
     const WelcomeContent = slides[0];
   return (
-        <View className="flex-1 justify-end">
+        <SafeAreaView className="flex-1 justify-end">
             <Image source={WelcomeContent.image} className="absolute h-full w-full"/>
             <View className="bg-transparent">
                 <View className="flex gap-2 p-6 pb-7">
@@ -19,6 +19,6 @@ export default function WelcomeScreen() {
                     <Text className="text-gray text-2xl font-bold text-center opacity-80">Enter Space</Text>
                 </TouchableOpacity>
             </View>
-        </View>
+        </SafeAreaView>
   )
 }
