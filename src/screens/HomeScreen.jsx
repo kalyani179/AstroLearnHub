@@ -1,6 +1,7 @@
 import { SafeAreaView, View, Text, ScrollView,Image, TouchableOpacity, TextInput } from 'react-native'
 import React from 'react'
 import slides from '../constants/WelcomeSlideData';
+import Categories from '../components/categories';
 
 export default function HomeScreen() {
   const HomeContent = slides[1];
@@ -16,10 +17,15 @@ export default function HomeScreen() {
 
         <View>
           <TouchableOpacity className="m-5 p-4 bg-neutral-100 rounded-full">
-          
+            
             <TextInput placeholder='Search Here' className="font-medium text-gray-300" />
           </TouchableOpacity>
         </View>
+
+        <View>
+          <Categories />
+        </View>
+        
       </ScrollView>
     </SafeAreaView>
   )
