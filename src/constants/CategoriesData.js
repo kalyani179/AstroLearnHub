@@ -1,42 +1,52 @@
 export const CategoriesData=[
     {
+        key:1,
         title:"Planets",
         image:require("../assets/sun.jpg")
     },
     {
+        key:2,
         title:"Black Holes",
         image:require("../assets/sun.jpg")
     },
     {
+        key:3,
         title:"Galaxies",
         image:require("../assets/sun.jpg")
     },
     {
+        key:4,
         title:"Multiverse",
         image:require("../assets/sun.jpg")
     },
     {
+        key:5,
         title:"Space Travel",
         image:require("../assets/sun.jpg")
     },
     {
+        key:6,
         title:"Time Travel",
         image:require("../assets/sun.jpg")
     },
     {
+        key:7,
         title:"Stars",
         image:require("../assets/sun.jpg")
     },
     {
+        key:8,
         title:"Satellites",
         image:require("../assets/sun.jpg")
     },
     {
+        key:9,
         title:"Asteroids",
         image:require("../assets/sun.jpg")
     },
     {
+        key:10,
         title:"Astronauts",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     }
 ]

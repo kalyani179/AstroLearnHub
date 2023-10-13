@@ -2,6 +2,7 @@ import { SafeAreaView, View, Text, ScrollView,Image, TouchableOpacity, TextInput
 import React from 'react'
 import slides from '../constants/WelcomeSlideData';
 import Categories from '../components/categories';
+import SortCategories from '../components/sortCategories';
 
 export default function HomeScreen() {
   const HomeContent = slides[1];
@@ -16,7 +17,6 @@ export default function HomeScreen() {
 
         <View>
           <TouchableOpacity className="m-5 p-4 bg-neutral-100 rounded-full">
-            
             <TextInput placeholder='Search Here' className="font-medium text-gray-300" />
           </TouchableOpacity>
         </View>
@@ -25,6 +25,9 @@ export default function HomeScreen() {
           <Categories />
         </View>
         
+        <View>
+          <SortCategories/>
+        </View>
       </ScrollView>
     </SafeAreaView>
   )
