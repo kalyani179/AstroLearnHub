@@ -1,39 +1,39 @@
 export const CategoriesData=[
     {
         title:"Planets",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Black Holes",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Galaxies",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Multiverse",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Space Travel",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Time Travel",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Stars",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Satellites",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Asteroids",
-        image:require("../assets/avatar.png")
+        image:require("../assets/sun.jpg")
     },
     {
         title:"Astronauts",

@@ -6,7 +6,6 @@ import Categories from '../components/categories';
 export default function HomeScreen() {
   const HomeContent = slides[1];
   return (
-   
     <SafeAreaView className="flex-1 bg-white">
       <ScrollView showsVerticalScrollIndicator={false}>
 
