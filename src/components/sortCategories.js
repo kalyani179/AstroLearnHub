@@ -15,8 +15,8 @@ function Card({item}){
     <TouchableOpacity onPress={()=>toggleFavourite(!isFavourite)} className="absolute top-4 right-4">
       <HeartIcon color={isFavourite ? "red" : "white"} size={"30"}/>
     </TouchableOpacity>
-    <Text className="absolute text-white font-semibold text-2xl mt-36 p-2">{item.title}</Text>
-    <Text className="absolute text-white text-xs mt-44 pl-2 pt-4">{item.text}</Text>
+    <Text className="absolute text-white font-semibold text-2xl mt-40 p-2">{item.title}</Text>
+    <Text className="absolute text-white text-xs mt-48 pl-2 pt-4">{item.text}</Text>
   </TouchableOpacity>
   </View>
   )

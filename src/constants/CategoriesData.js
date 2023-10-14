@@ -2,7 +2,7 @@ export const CategoriesData=[
     {
         key:1,
         title:"Planets",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/planets.jpg")
     },
     {
         key:2,
