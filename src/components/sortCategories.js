@@ -2,18 +2,21 @@ import { View, Text, TouchableOpacity, ScrollView,Image } from 'react-native'
 import React,{useState} from 'react'
 import { AllData } from '../constants/AllData';
 import {HeartIcon} from "react-native-heroicons/solid";
+import { useNavigation } from '@react-navigation/native';
+import Details from '../screens/DetailsScreen';
 
 function Card({item}){
+  const navigation = useNavigation();
   const [isFavourite,toggleFavourite] = useState(false);
   return(
     <View>
-    <TouchableOpacity className="mb-5">
+    <TouchableOpacity onPress={()=>navigation.navigate("Details",{...item})} className="mb-5">
     <Image className="w-44 h-72 rounded-3xl" source={item.image}/>
     <TouchableOpacity onPress={()=>toggleFavourite(!isFavourite)} className="absolute top-4 right-4">
       <HeartIcon color={isFavourite ? "red" : "white"} size={"30"}/>
     </TouchableOpacity>
-    <Text className="absolute text-white font-semibold text-2xl mt-32 p-2">{item.title}</Text>
-    <Text className="absolute text-white text-xs mt-40 pl-2 pt-4">{item.text}</Text>
+    <Text className="absolute text-white font-semibold text-2xl mt-36 p-2">{item.title}</Text>
+    <Text className="absolute text-white text-xs mt-44 pl-2 pt-4">{item.text}</Text>
   </TouchableOpacity>
   </View>
   )
