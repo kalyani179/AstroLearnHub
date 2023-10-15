@@ -3,7 +3,6 @@ import React,{useState} from 'react'
 import { AllData } from '../constants/AllData';
 import {HeartIcon} from "react-native-heroicons/solid";
 import { useNavigation } from '@react-navigation/native';
-import Details from '../screens/DetailsScreen';
 
 function Card({item}){
   const navigation = useNavigation();

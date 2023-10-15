@@ -2,7 +2,7 @@ import { View, Text, Image,SafeAreaView, TouchableOpacity } from 'react-native'
 import React from 'react'
 
 export default function Details(props) {
-  const item = props.route.params
+  const item = props.route.params;
   return (
     <SafeAreaView className="flex">
        <Image className="w-full rounded-b-full h-2/4" source={item.image}/>
