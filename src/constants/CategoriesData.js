@@ -22,31 +22,31 @@ export const CategoriesData=[
     {
         key:5,
         title:"Space Travel",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/spacetravel.png")
     },
     {
         key:6,
         title:"Time Travel",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/timetravel.png")
     },
     {
         key:7,
         title:"Stars",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/stars.jpg")
     },
     {
         key:8,
         title:"Satellites",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/satellites.jpg")
     },
     {
         key:9,
         title:"Asteroids",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/asteroids.jpg")
     },
     {
         key:10,
         title:"Astronauts",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/astronauts.jpg")
     }
 ]

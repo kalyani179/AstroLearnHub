@@ -12,9 +12,9 @@ export default function Categories() {
         </TouchableOpacity>
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-            {CategoriesData.map((category)=>{
+            {CategoriesData.map((category,index)=>{
                 return(
-                    <TouchableOpacity className="flex item-center m-3">
+                    <TouchableOpacity key={index} className="flex item-center m-3">
                         <Image className="w-20 h-20 mb-2 rounded-xl" source={category.image}/>
                         <Text className="m-1 text-center font-medium opacity-80">{category.title}</Text>
                     </TouchableOpacity>

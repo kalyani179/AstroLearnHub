@@ -54,12 +54,14 @@ export default function SortCategories() {
            }
           </View>}
           {activeTab===2 && <View>
-            <Text>Hello</Text>
+            <Text className="text-center">Theories</Text>
           </View>}
           {activeTab===3 && <View>
-            <Text></Text>
+            <Text className="text-center">Exploration</Text>
           </View>}
-          {activeTab===4 && <View></View>}
+          {activeTab===4 && <View>
+            <Text className="text-center">Space News</Text>
+          </View>}
       </View>
     </View>
   )

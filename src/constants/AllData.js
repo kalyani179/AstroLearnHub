@@ -37,6 +37,24 @@ export const AllData=[
     },
     {
         key:7,
+        title:"Uranus",
+        text:"Uranus is a unique planet because it rotates on its side. It's often called an ice giant due to its composition of water, ammonia, and methane.",
+        image:require("../assets/all/uranus.jpg")
+    },
+    {
+        key:8,
+        title:"Neptune",
+        text:"Neptune is the farthest planet from the Sun and has a deep blue color due to methane in its atmosphere. It's known for strong winds and large storms.",
+        image:require("../assets/all/neptune.jpg")
+    },
+    {
+        key:9,
+        title:"Pluto",
+        text:"Pluto, once considered the ninth planet, is now a dwarf planet in the Kuiper Belt. It's a small, icy world with a unique orbit and a single large moon, Charon.",
+        image:require("../assets/all/pluto.jpg")
+    },
+    {
+        key:10,
         title:"Moon",
         text:"Saturn is famous for its stunning ring system, composed of countless icy particles. It's a gas giant like Jupiter.",
         image:require("../assets/all/moon.jpg")
