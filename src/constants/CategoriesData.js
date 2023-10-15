@@ -2,22 +2,22 @@ export const CategoriesData=[
     {
         key:1,
         title:"Planets",
-        image:require("../assets/planets.jpg")
+        image:require("../assets/categories/planets.jpg")
     },
     {
         key:2,
         title:"Black Holes",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/blackholes.png")
     },
     {
         key:3,
         title:"Galaxies",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/galaxies.jpg")
     },
     {
         key:4,
         title:"Multiverse",
-        image:require("../assets/sun.jpg")
+        image:require("../assets/categories/multiverse.png")
     },
     {
         key:5,

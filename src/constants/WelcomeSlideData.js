@@ -8,7 +8,7 @@ const slides = [
     {
       key:2,
       title:"",
-      avatar:require("../assets/avatar.png")
+      avatar:require("../assets/avatar.jpg")
     }
 ];
 export default slides;
