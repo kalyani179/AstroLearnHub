@@ -16,7 +16,7 @@ export default function WelcomeScreen() {
                     <Text className="text-white font-medium leading-5 opacity-60">{WelcomeContent.text}</Text>
                 </View>
                 <TouchableOpacity className="bg-white p-3 m-6 mt-1 rounded-full opacity-90" onPress={()=>navigation.navigate("Home")}>
-                    <Text className="text-gray text-2xl font-bold text-center opacity-80">Enter Space</Text>
+                    <Text className="text-gray text-2xl font-bold text-center opacity-80">LAUNCH NOW</Text>
                 </TouchableOpacity>
             </View>
         </SafeAreaView>
