@@ -1,7 +1,6 @@
 import { View,Image,Text,SafeAreaView,TouchableOpacity } from 'react-native'
 import React from 'react';
 import { useNavigation } from "@react-navigation/native";
-import getPixels from "../components/components";
 import slides from '../constants/WelcomeSlideData';
 
 export default function WelcomeScreen() {
@@ -15,8 +14,8 @@ export default function WelcomeScreen() {
                     <Text className="text-white text-5xl font-bold opacity-85">{WelcomeContent.title}</Text>
                     <Text className="text-white font-medium leading-5 opacity-60">{WelcomeContent.text}</Text>
                 </View>
-                <TouchableOpacity className="bg-white p-3 m-6 mt-1 rounded-full opacity-90" onPress={()=>navigation.navigate("Home")}>
-                    <Text className="text-gray text-2xl font-bold text-center opacity-80">LAUNCH NOW</Text>
+                <TouchableOpacity className="bg-white p-3 m-10 mt-1 rounded-full opacity-90" onPress={()=>navigation.navigate("Home")}>
+                    <Text className="text-gray text-2xl font-bold text-center opacity-80">Get Started</Text>
                 </TouchableOpacity>
             </View>
         </SafeAreaView>

@@ -14,10 +14,12 @@ export default function Categories() {
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             {CategoriesData.map((category,index)=>{
                 return(
+                  <View>
                     <TouchableOpacity key={index} className="flex item-center m-3">
                         <Image className="w-20 h-20 mb-2 rounded-xl" source={category.image}/>
-                        <Text className="m-1 text-center font-medium opacity-80">{category.title}</Text>
                     </TouchableOpacity>
+                    <Text className="m-1 text-center font-medium opacity-80">{category.title}</Text>
+                    </View>
                 )
             })}
       </ScrollView>

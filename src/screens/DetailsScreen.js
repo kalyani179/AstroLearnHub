@@ -9,7 +9,7 @@ export default function Details(props) {
       <Text className="font-bold text-center text-3xl mt-10">{item.title}</Text>
       <Text className="p-10 pr-5 pb-3 font-medium text-xl">{item.text}</Text>
       <TouchableOpacity className="rounded-3xl p-5 m-10 bg-amber-400">
-        <Text className="text-center text-lg font-semibold">Know More About {item.title}</Text>
+        <Text className="text-center text-xl font-semibold">Know More About {item.title}</Text>
       </TouchableOpacity>
     </SafeAreaView>
   )
